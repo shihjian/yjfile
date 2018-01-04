@@ -153,37 +153,36 @@ html,body{
 .circle{
 	
 	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	transform: -webkit-transition: (-50%,-50%); 
-	-moz-transition: (-50%,-50%); 
-	transition: (-50%,-50%); 
-	border: 2px solid #fff; 
-	border-radius:50%;
-	width: 60px;
-	height: 60px;
-	text-align:center;
-	line-height:100px;
-	font-size:80px;
-	overflow: hidden;
-	opacity: 0.7;
+    left: 50%;
+    bottom: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+	width: 40px;
+    font-size: 40px;
+    overflow: hidden;
+    margin-left: -15px;
+    display: block;
+    
+    opacity: 0.7;
 }
 
 .circle .fa{
+	position: relative;
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	animation: animate 2s linear infinite;
+	animation: animate 1.5s linear infinite;
 
 }
 
 @keyframes animate{
 
 	0%{
-		transform: translateY(-100px);
+		transform: translateY(-10px);
 	}
 
 	100%{
-		transform: translateY(10px);
+		transform: translateY(20px);
 	}
 }
